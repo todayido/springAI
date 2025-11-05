@@ -40,7 +40,18 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
-        
+
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>7.17.15</version>
+        </dependency>
+
+
         <!-- Kafka test support -->
         <dependency>
             <groupId>org.springframework.kafka</groupId>
@@ -54,6 +65,13 @@
             <artifactId>spring-boot-test-autoconfigure</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <dependency>
+    <groupId>org.elasticsearch.client</groupId>
+    <artifactId>elasticsearch-rest-high-level-client</artifactId>
+    <version>7.17.15</version> <!-- 使用与您的Elasticsearch服务器匹配的版本 -->
+</dependency>
+
         
         <!-- Mockito for mocking (explicit version for clarity, though included in starter-test) -->
         <dependency>

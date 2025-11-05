@@ -1,0 +1,339 @@
+{
+  "properties": {
+    "my_join_field": {
+          "type": "join",
+            "relations": {
+              "my_parent": "my_child"
+            }
+          },
+    "fileCode": {
+      "type": "keyword"
+    },
+    "realmd5": {
+      "type": "keyword"
+    },
+    "simFileFlag": {
+      "type": "byte"
+    },
+    "simFileCode": {
+      "type": "keyword"
+    },
+    "sim": {
+      "type": "keyword"
+    },
+    "nameCode": {
+      "type": "text"
+    },
+    "name": {
+      "type": "text",
+      "analyzer": "my_analyzer"
+    },
+    "summaryCode": {
+      "type": "keyword"
+    },
+    "summary": {
+      "type": "text",
+      "analyzer": "my_analyzer"
+    },
+    "textCode": {
+      "type": "keyword"
+    },
+    "text": {
+      "type": "text",
+      "term_vector": "yes"
+    },
+    "textLength": {
+      "type": "long"
+    },
+    "uuid": {
+      "type": "keyword"
+    },
+    "filesize": {
+      "type": "keyword"
+    },
+    "recordCount": {
+      "type": "keyword"
+    },
+    "redhead": {
+      "type": "keyword"
+    },
+    "type": {
+      "type": "byte"
+    },
+    "importFlag": {
+      "type": "byte"
+    },
+    "feature": {
+      "type": "keyword"
+    },
+    "keyWord": {
+      "analyzer": "my_analyzer",
+      "type": "text"
+    },
+    "level": {
+      "type": "byte"
+    },
+    "old_level": {
+      "type": "byte"
+    },
+    "preCheckComment": {
+      "type": "keyword"
+    },
+    "preCheckFlag": {
+      "type": "keyword"
+    },
+    "action": {
+      "type": "keyword"
+    },
+    "createDate": {
+      "type": "date"
+    },
+    "filecreatetime": {
+      "type": "date"
+    },
+    "filemodifytime": {
+      "type": "date"
+    },
+    "srcLocation": {
+      "type": "keyword"
+    },
+    "destLocation": {
+      "type": "keyword"
+    },
+    "userId": {
+      "type": "keyword"
+    },
+    "userName": {
+      "type": "text",
+      "analyzer": "my_analyzer"
+    },
+    "computerId": {
+      "type": "keyword"
+    },
+    "computerName": {
+      "type": "text",
+      "analyzer": "my_analyzer"
+    },
+    "computerLocation": {
+      "type": "keyword"
+    },
+    "srcip": {
+      "type": "keyword"
+    },
+    "srcport": {
+      "type": "long"
+    },
+    "srcterminal": {
+      "type": "keyword"
+    },
+    "dstip": {
+      "type": "keyword"
+    },
+    "dstport": {
+      "type": "long"
+    },
+    "dstterminal": {
+      "type": "keyword"
+    },
+    "ip": {
+      "type": "keyword"
+    },
+    "mac": {
+      "type": "keyword"
+    },
+    "sn": {
+      "type": "keyword"
+    },
+    "orgId": {
+      "type": "keyword"
+    },
+    "orgPath": {
+      "type": "keyword"
+    },
+    "policyId": {
+      "type": "keyword"
+    },
+    "version": {
+      "type": "keyword"
+    },
+    "readFlag": {
+      "type": "byte"
+    },
+    "sendFlag": {
+      "type": "byte"
+    },
+    "sendTime": {
+      "type": "date"
+    },
+    "signFlag": {
+      "type": "short"
+    },
+    "deleteFlag": {
+      "type": "byte"
+    },
+    "deleteTime": {
+      "type": "date"
+    },
+    "judgeFlag": {
+      "type": "byte"
+    },
+    "mgLevel": {
+      "type": "keyword"
+    },
+    "judgeTime": {
+      "type": "date"
+    },
+    "updateTime": {
+      "type": "date"
+    },
+    "judgeAccountId": {
+      "type": "keyword"
+    },
+    "judgeAccountName": {
+      "type": "text",
+      "analyzer": "my_analyzer"
+    },
+    "judgeAccountRoleId": {
+      "type": "keyword"
+    },
+    "judgeAccountType": {
+      "type": "byte"
+    },
+    "preJudgeAccountId": {
+      "type": "keyword"
+    },
+    "preJudgeAccountName": {
+      "type": "text",
+      "analyzer": "my_analyzer"
+    },
+    "preJudgeAccountType": {
+      "type": "byte"
+    },
+    "preJudgeLevel": {
+      "type": "keyword"
+    },
+    "preJudgeTime": {
+      "type": "date"
+    },
+    "preJudgeFlag": {
+      "type": "byte"
+    },
+    "judgeActionText": {
+      "type": "keyword"
+    },
+    "shareType": {
+      "type": "byte"
+    },
+    "deduction": {
+      "type": "keyword"
+    },
+    "hostId": {
+      "type": "keyword"
+    },
+    "reportId": {
+      "type": "integer"
+    },
+    "rid": {
+      "type": "integer"
+    },
+    "taskId": {
+      "type": "integer"
+    },
+    "usermanager": {
+      "type": "keyword"
+    },
+    "application": {
+      "type": "keyword"
+    },
+    "attriute": {
+      "type": "keyword"
+    },
+    "code": {
+      "type": "integer"
+    },
+    "contentKeyword": {
+      "type": "keyword"
+    },
+    "copymd5": {
+      "type": "keyword"
+    },
+    "accessTime": {
+      "type": "keyword"
+    },
+    "deleted": {
+      "type": "keyword"
+    },
+    "priority": {
+      "type": "integer"
+    },
+    "mcKeywordHit": {
+      "type": "keyword"
+    },
+    "nameKeyword": {
+      "type": "keyword"
+    },
+    "scope": {
+      "type": "keyword"
+    },
+    "trust": {
+      "type": "keyword"
+    },
+    "fileName": {
+      "type": "keyword"
+    },
+    "okNum": {
+      "type": "integer"
+    },
+    "juemiNum": {
+      "type": "integer"
+    },
+    "jimiNum": {
+      "type": "integer"
+    },
+    "mimiNum": {
+      "type": "integer"
+    },
+    "fileIndex": {
+      "type": "integer"
+    },
+    "logic_fileCode": {
+      "type": "keyword"
+    },
+    "srcvid": {
+      "type": "keyword"
+    },
+    "srcpid": {
+      "type": "keyword"
+    },
+    "dstvid": {
+      "type": "keyword"
+    },
+    "dstpid": {
+      "type": "keyword"
+    },
+    "computer_status": {
+      "type": "byte"
+    },
+    "is_file_delete": {
+      "type": "byte"
+    },
+    "server": {
+      "type": "keyword"
+    },
+    "reverseId": {
+      "type": "keyword"
+    },
+    "confirmStatus": {
+      "type": "integer"
+    },
+    "suspectNum": {
+      "type": "integer"
+    },
+    "classifiedDesc": {
+      "type": "keyword"
+    },
+    "rangeTime": {
+      "type": "long"
+    }
+  }
+}

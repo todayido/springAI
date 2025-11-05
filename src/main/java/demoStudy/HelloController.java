@@ -21,7 +21,7 @@ public class HelloController {
         
         StringBuilder html = new StringBuilder();
         html.append("<html><body>");
-        html.append("<h1>Hello World!</h1>");
+        html.append("<h1>Hello World!!!!</h1>");
         html.append("<h2>Kafka Messages from topic 'gm-test':</h2>");
         
         if (messages.isEmpty()) {
